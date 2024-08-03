@@ -1,5 +1,32 @@
-<html>
-  <body>
-    <h1>Seres Pedalantes</h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .background {
+            background-image: url('background.png');
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .centered-image {
+            height: 50vh; 
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <img src="logo.png" alt="Centered Image" class="centered-image"> 
+    </div>
+</body>
 </html>
